@@ -16,6 +16,7 @@ class Ticket(models.Model):
 		('PO', 'Post to Buyer'),
 		('CO', 'Buyer to collect at Venue'),
 		('BO', 'The buyer is to post the tickets by pigeon' 
+		('VB', 'The seller has to play the oboe to direct the tickets from the buyer'
 		)
 
 	listing = models.ForeignKey(Listing)
