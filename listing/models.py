@@ -17,7 +17,8 @@ class Ticket(models.Model):
 		('CO', 'Buyer to collect at Venue'),
 		('BO', 'The buyer is to post the tickets by pigeon' 
 		('VB', 'The seller has to play the oboe to direct the tickets from the buyer'
-		)
+		
+)
 
 	listing = models.ForeignKey(Listing)
 	new_title = models.CharField(max_length=50, default = '')
